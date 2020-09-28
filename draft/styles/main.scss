@@ -1,0 +1,33 @@
+@import './reset';
+@import './variables';
+
+@function weight ($key) {
+    @return map-get($font-weight, $key);
+}
+
+// Mixin: trecho de código reutilizável em outros estilos
+@mixin flexCenter ($direction: row) {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: $direction;
+}
+
+body {
+    .container {
+        @include flexCenter(column);
+
+        background-color: darken($color: #fff, $amount: 30%);
+        color: #fff;
+        h1 {
+            color: $primary-color;
+            font-weight: weight(bold);
+        }
+        p {
+            color: $primary-color;
+        }
+        a {
+            color: $primary-color;
+        }
+    }
+}

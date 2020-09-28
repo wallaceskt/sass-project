@@ -1,0 +1,78 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+*,
+*::after,
+*::before {
+  -webkit-box-sizing: inherit;
+          box-sizing: inherit;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  padding: 0;
+}
+
+button,
+[type="submit"] {
+  cursor: pointer;
+  -webkit-appearence: button;
+}
+
+p {
+  -webkit-margin-start: 0;
+          margin-inline-start: 0;
+  -webkit-margin-end: 0;
+          margin-inline-end: 0;
+  padding: 0;
+  margin: 0;
+}
+
+code {
+  font-family: source-code-pro, Menio, Monaco, Consolas, "Currier New", monospace;
+}
+
+body .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background-color: #b3b3b3;
+  color: #fff;
+}
+
+body .container h1 {
+  color: yellow;
+  font-weight: 700;
+}
+
+body .container p {
+  color: yellow;
+}
+
+body .container a {
+  color: yellow;
+}
+/*# sourceMappingURL=main.css.map */
