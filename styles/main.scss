@@ -1,0 +1,16 @@
+@import './variables';
+
+body {
+    background-color: blueviolet;
+    color: #fff;
+    h1 {
+        color: $primary-color;
+        font-weight: map-get($font-weight, regular);
+    }
+    p {
+        color: $primary-color;
+    }
+    a {
+        color: $primary-color;
+    }
+}
